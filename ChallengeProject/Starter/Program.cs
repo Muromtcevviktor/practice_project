@@ -120,7 +120,6 @@ foreach (string name in studentNames)
     }
 
     extraCredit = sumExtraCredit / extraAssignment;
-
     extraPoints = overallGrade - examScore;
 
     // Grade letter based on on the score
