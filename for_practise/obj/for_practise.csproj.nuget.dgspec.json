@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\murom\\source\\repos\\practice_project\\For_practising\\for_exercise\\for_exercise.csproj": {}
+    "C:\\Users\\murom\\source\\repos\\practice_project\\for_practise\\for_practise.csproj": {}
   },
   "projects": {
-    "C:\\Users\\murom\\source\\repos\\practice_project\\For_practising\\for_exercise\\for_exercise.csproj": {
+    "C:\\Users\\murom\\source\\repos\\practice_project\\for_practise\\for_practise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\murom\\source\\repos\\practice_project\\For_practising\\for_exercise\\for_exercise.csproj",
-        "projectName": "for_exercise",
-        "projectPath": "C:\\Users\\murom\\source\\repos\\practice_project\\For_practising\\for_exercise\\for_exercise.csproj",
+        "projectUniqueName": "C:\\Users\\murom\\source\\repos\\practice_project\\for_practise\\for_practise.csproj",
+        "projectName": "for_practise",
+        "projectPath": "C:\\Users\\murom\\source\\repos\\practice_project\\for_practise\\for_practise.csproj",
         "packagesPath": "C:\\Users\\murom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\murom\\source\\repos\\practice_project\\For_practising\\for_exercise\\obj\\",
+        "outputPath": "C:\\Users\\murom\\source\\repos\\practice_project\\for_practise\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\murom\\AppData\\Roaming\\NuGet\\NuGet.Config",

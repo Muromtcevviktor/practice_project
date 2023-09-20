@@ -1,0 +1,15 @@
+C:\Users\murom\source\repos\practice_project\for_practise\bin\Debug\net7.0\for_practise.exe
+C:\Users\murom\source\repos\practice_project\for_practise\bin\Debug\net7.0\for_practise.deps.json
+C:\Users\murom\source\repos\practice_project\for_practise\bin\Debug\net7.0\for_practise.runtimeconfig.json
+C:\Users\murom\source\repos\practice_project\for_practise\bin\Debug\net7.0\for_practise.dll
+C:\Users\murom\source\repos\practice_project\for_practise\bin\Debug\net7.0\for_practise.pdb
+C:\Users\murom\source\repos\practice_project\for_practise\obj\Debug\net7.0\for_practise.csproj.AssemblyReference.cache
+C:\Users\murom\source\repos\practice_project\for_practise\obj\Debug\net7.0\for_practise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murom\source\repos\practice_project\for_practise\obj\Debug\net7.0\for_practise.AssemblyInfoInputs.cache
+C:\Users\murom\source\repos\practice_project\for_practise\obj\Debug\net7.0\for_practise.AssemblyInfo.cs
+C:\Users\murom\source\repos\practice_project\for_practise\obj\Debug\net7.0\for_practise.csproj.CoreCompileInputs.cache
+C:\Users\murom\source\repos\practice_project\for_practise\obj\Debug\net7.0\for_practise.dll
+C:\Users\murom\source\repos\practice_project\for_practise\obj\Debug\net7.0\refint\for_practise.dll
+C:\Users\murom\source\repos\practice_project\for_practise\obj\Debug\net7.0\for_practise.pdb
+C:\Users\murom\source\repos\practice_project\for_practise\obj\Debug\net7.0\for_practise.genruntimeconfig.cache
+C:\Users\murom\source\repos\practice_project\for_practise\obj\Debug\net7.0\ref\for_practise.dll
