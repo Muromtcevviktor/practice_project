@@ -1,0 +1,15 @@
+C:\Users\murom\source\repos\practice_project\Coin_flip\obj\Debug\net7.0\Coin_flip.csproj.AssemblyReference.cache
+C:\Users\murom\source\repos\practice_project\Coin_flip\obj\Debug\net7.0\Coin_flip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murom\source\repos\practice_project\Coin_flip\obj\Debug\net7.0\Coin_flip.AssemblyInfoInputs.cache
+C:\Users\murom\source\repos\practice_project\Coin_flip\obj\Debug\net7.0\Coin_flip.AssemblyInfo.cs
+C:\Users\murom\source\repos\practice_project\Coin_flip\obj\Debug\net7.0\Coin_flip.csproj.CoreCompileInputs.cache
+C:\Users\murom\source\repos\practice_project\Coin_flip\bin\Debug\net7.0\Coin_flip.exe
+C:\Users\murom\source\repos\practice_project\Coin_flip\bin\Debug\net7.0\Coin_flip.deps.json
+C:\Users\murom\source\repos\practice_project\Coin_flip\bin\Debug\net7.0\Coin_flip.runtimeconfig.json
+C:\Users\murom\source\repos\practice_project\Coin_flip\bin\Debug\net7.0\Coin_flip.dll
+C:\Users\murom\source\repos\practice_project\Coin_flip\bin\Debug\net7.0\Coin_flip.pdb
+C:\Users\murom\source\repos\practice_project\Coin_flip\obj\Debug\net7.0\Coin_flip.dll
+C:\Users\murom\source\repos\practice_project\Coin_flip\obj\Debug\net7.0\refint\Coin_flip.dll
+C:\Users\murom\source\repos\practice_project\Coin_flip\obj\Debug\net7.0\Coin_flip.pdb
+C:\Users\murom\source\repos\practice_project\Coin_flip\obj\Debug\net7.0\Coin_flip.genruntimeconfig.cache
+C:\Users\murom\source\repos\practice_project\Coin_flip\obj\Debug\net7.0\ref\Coin_flip.dll
