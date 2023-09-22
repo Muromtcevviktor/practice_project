@@ -1,21 +1,107 @@
-﻿int[] numbers = { 4, 8, 15, 16, 23, 42 };
+﻿// SKU = Stock Keeping Unit. 
+// SKU value format: <product #>-<2-letter color code>-<size code>
+string sku = "01-MN-L";
 
-int total = 0;
-bool found = false;
+string[] product = sku.Split('-');
 
-foreach (int number in numbers)
+string type = "";
+string color = "";
+string size = "";
+
+/*
+if (product[0] == "01")
 {
-    total += number;
+    type = "Sweat shirt";
+} else if (product[0] == "02")
+{
+    type = "T-Shirt";
+} else if (product[0] == "03")
+{
+    type = "Sweat pants";
+}
+else
+{
+    type = "Other";
+}
+*/
+switch (product[0])
+{
+    case "01":
+    type = "Sweat shirt";
+    break;
 
-    if (number == 42)
-    {
-        found = true; 
-    }
-       
+    case "02":
+    type = "T-Shirt";
+    break;
+
+    case "03":
+    type = "Sweat pants";
+    break;
+
+    default:
+    type = "Other";
+    break;
 }
 
-if (found) 
-    Console.WriteLine("Set contains 42");
+/*
+if (product[1] == "BL")
+{
+    color = "Black";
+} else if (product[1] == "MN")
+{
+    color = "Maroon";
+} else
+{
+    color = "White";
+}
+*/
+switch (product[1])
+{
+    case "BL":
+    color = "Black";
+    break;
 
+    case "MN":
+    color = "Maroon";
+    break;
 
-Console.WriteLine($"Total: {total}");
+    default:
+    color = "White";
+    break;
+}
+
+/*
+if (product[2] == "S")
+{
+    size = "Small";
+} else if (product[2] == "M")
+{
+    size = "Medium";
+} else if (product[2] == "L")
+{
+    size = "Large";
+} else
+{
+    size = "One Size Fits All";
+}
+*/
+switch (product[2])
+{
+    case "S":
+    size = "Small";
+    break;
+
+    case "M":
+    size = "Medium";
+    break;
+
+    case "L":
+    size = "Large";
+    break;
+
+    default:
+    size = "One Size Fits All";
+    break;
+}
+
+Console.WriteLine($"Product: {size} {color} {type}");
