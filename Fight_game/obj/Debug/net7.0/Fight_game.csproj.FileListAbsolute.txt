@@ -1,0 +1,15 @@
+C:\Users\murom\source\repos\practice_project\Fight_game\obj\Debug\net7.0\Fight_game.csproj.AssemblyReference.cache
+C:\Users\murom\source\repos\practice_project\Fight_game\obj\Debug\net7.0\Fight_game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murom\source\repos\practice_project\Fight_game\obj\Debug\net7.0\Fight_game.AssemblyInfoInputs.cache
+C:\Users\murom\source\repos\practice_project\Fight_game\obj\Debug\net7.0\Fight_game.AssemblyInfo.cs
+C:\Users\murom\source\repos\practice_project\Fight_game\obj\Debug\net7.0\Fight_game.csproj.CoreCompileInputs.cache
+C:\Users\murom\source\repos\practice_project\Fight_game\bin\Debug\net7.0\Fight_game.exe
+C:\Users\murom\source\repos\practice_project\Fight_game\bin\Debug\net7.0\Fight_game.deps.json
+C:\Users\murom\source\repos\practice_project\Fight_game\bin\Debug\net7.0\Fight_game.runtimeconfig.json
+C:\Users\murom\source\repos\practice_project\Fight_game\bin\Debug\net7.0\Fight_game.dll
+C:\Users\murom\source\repos\practice_project\Fight_game\bin\Debug\net7.0\Fight_game.pdb
+C:\Users\murom\source\repos\practice_project\Fight_game\obj\Debug\net7.0\Fight_game.dll
+C:\Users\murom\source\repos\practice_project\Fight_game\obj\Debug\net7.0\refint\Fight_game.dll
+C:\Users\murom\source\repos\practice_project\Fight_game\obj\Debug\net7.0\Fight_game.pdb
+C:\Users\murom\source\repos\practice_project\Fight_game\obj\Debug\net7.0\Fight_game.genruntimeconfig.cache
+C:\Users\murom\source\repos\practice_project\Fight_game\obj\Debug\net7.0\ref\Fight_game.dll
