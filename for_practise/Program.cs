@@ -1,11 +1,6 @@
-﻿Random random = new Random();
-int current = random.Next(1, 11);
-
+﻿string? readResult;
+Console.WriteLine("Enter a string:");
 do
 {
-    current = random.Next(1, 11);
-
-    if (current >= 8) continue;
-
-    Console.WriteLine(current);
-} while (current != 7);
+    readResult = Console.ReadLine();
+} while (readResult == null);
