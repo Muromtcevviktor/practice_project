@@ -1,0 +1,15 @@
+C:\Users\murom\source\repos\practice_project\formatting_exercise\bin\Debug\net7.0\formatting_exercise.exe
+C:\Users\murom\source\repos\practice_project\formatting_exercise\bin\Debug\net7.0\formatting_exercise.deps.json
+C:\Users\murom\source\repos\practice_project\formatting_exercise\bin\Debug\net7.0\formatting_exercise.runtimeconfig.json
+C:\Users\murom\source\repos\practice_project\formatting_exercise\bin\Debug\net7.0\formatting_exercise.dll
+C:\Users\murom\source\repos\practice_project\formatting_exercise\bin\Debug\net7.0\formatting_exercise.pdb
+C:\Users\murom\source\repos\practice_project\formatting_exercise\obj\Debug\net7.0\formatting_exercise.csproj.AssemblyReference.cache
+C:\Users\murom\source\repos\practice_project\formatting_exercise\obj\Debug\net7.0\formatting_exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murom\source\repos\practice_project\formatting_exercise\obj\Debug\net7.0\formatting_exercise.AssemblyInfoInputs.cache
+C:\Users\murom\source\repos\practice_project\formatting_exercise\obj\Debug\net7.0\formatting_exercise.AssemblyInfo.cs
+C:\Users\murom\source\repos\practice_project\formatting_exercise\obj\Debug\net7.0\formatting_exercise.csproj.CoreCompileInputs.cache
+C:\Users\murom\source\repos\practice_project\formatting_exercise\obj\Debug\net7.0\formatting_exercise.dll
+C:\Users\murom\source\repos\practice_project\formatting_exercise\obj\Debug\net7.0\refint\formatting_exercise.dll
+C:\Users\murom\source\repos\practice_project\formatting_exercise\obj\Debug\net7.0\formatting_exercise.pdb
+C:\Users\murom\source\repos\practice_project\formatting_exercise\obj\Debug\net7.0\formatting_exercise.genruntimeconfig.cache
+C:\Users\murom\source\repos\practice_project\formatting_exercise\obj\Debug\net7.0\ref\formatting_exercise.dll
