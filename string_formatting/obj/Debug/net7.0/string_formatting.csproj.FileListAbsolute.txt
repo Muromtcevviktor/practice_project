@@ -1,0 +1,15 @@
+C:\Users\murom\source\repos\practice_project\string_formatting\bin\Debug\net7.0\string_formatting.exe
+C:\Users\murom\source\repos\practice_project\string_formatting\bin\Debug\net7.0\string_formatting.deps.json
+C:\Users\murom\source\repos\practice_project\string_formatting\bin\Debug\net7.0\string_formatting.runtimeconfig.json
+C:\Users\murom\source\repos\practice_project\string_formatting\bin\Debug\net7.0\string_formatting.dll
+C:\Users\murom\source\repos\practice_project\string_formatting\bin\Debug\net7.0\string_formatting.pdb
+C:\Users\murom\source\repos\practice_project\string_formatting\obj\Debug\net7.0\string_formatting.csproj.AssemblyReference.cache
+C:\Users\murom\source\repos\practice_project\string_formatting\obj\Debug\net7.0\string_formatting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murom\source\repos\practice_project\string_formatting\obj\Debug\net7.0\string_formatting.AssemblyInfoInputs.cache
+C:\Users\murom\source\repos\practice_project\string_formatting\obj\Debug\net7.0\string_formatting.AssemblyInfo.cs
+C:\Users\murom\source\repos\practice_project\string_formatting\obj\Debug\net7.0\string_formatting.csproj.CoreCompileInputs.cache
+C:\Users\murom\source\repos\practice_project\string_formatting\obj\Debug\net7.0\string_formatting.dll
+C:\Users\murom\source\repos\practice_project\string_formatting\obj\Debug\net7.0\refint\string_formatting.dll
+C:\Users\murom\source\repos\practice_project\string_formatting\obj\Debug\net7.0\string_formatting.pdb
+C:\Users\murom\source\repos\practice_project\string_formatting\obj\Debug\net7.0\string_formatting.genruntimeconfig.cache
+C:\Users\murom\source\repos\practice_project\string_formatting\obj\Debug\net7.0\ref\string_formatting.dll
