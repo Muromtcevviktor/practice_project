@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\murom\\source\\repos\\practice_project\\Grade_automation\\Grade_automation.csproj": {}
+    "C:\\Users\\murom\\source\\repos\\practice_project\\Grade_automation\\Grade_automation.csproj": {}
   },
   "projects": {
-    "c:\\Users\\murom\\source\\repos\\practice_project\\Grade_automation\\Grade_automation.csproj": {
+    "C:\\Users\\murom\\source\\repos\\practice_project\\Grade_automation\\Grade_automation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\murom\\source\\repos\\practice_project\\Grade_automation\\Grade_automation.csproj",
+        "projectUniqueName": "C:\\Users\\murom\\source\\repos\\practice_project\\Grade_automation\\Grade_automation.csproj",
         "projectName": "Grade_automation",
-        "projectPath": "c:\\Users\\murom\\source\\repos\\practice_project\\Grade_automation\\Grade_automation.csproj",
+        "projectPath": "C:\\Users\\murom\\source\\repos\\practice_project\\Grade_automation\\Grade_automation.csproj",
         "packagesPath": "C:\\Users\\murom\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\murom\\source\\repos\\practice_project\\Grade_automation\\obj\\",
+        "outputPath": "C:\\Users\\murom\\source\\repos\\practice_project\\Grade_automation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\murom\\AppData\\Roaming\\NuGet\\NuGet.Config",
