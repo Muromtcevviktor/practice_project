@@ -1,16 +1,69 @@
-﻿int value1 = 12;
-decimal value2 = 6.2m;
-float value3 = 4.3f;
+﻿using System;
 
-// Your code here to set result1
-// Hint: You need to round the result to nearest integer (don't just truncate)
-int result1 = value1 / (int)value2;
-Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
+int[] times = {800, 1200, 1600, 2000};
+int diff = 0;
 
-// Your code here to set result2
-decimal result2 = value2 / (decimal)value3;
-Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
+Console.WriteLine("Enter current GMT");
+int currentGMT = Convert.ToInt32(Console.ReadLine());
 
-// Your code here to set result3
-float result3 = value3 / (float)value1;
-Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
+Console.WriteLine("Current Medicine Schedule:");
+DisplayTimes();
+
+Console.WriteLine("Enter new GMT");
+int newGMT = Convert.ToInt32(Console.ReadLine());
+
+if (Math.Abs(newGMT) > 12 || Math.Abs(currentGMT) > 12)
+{
+    Console.WriteLine("Invalid GMT");
+}
+else if (newGMT <= 0 && currentGMT <= 0 || newGMT >= 0 && currentGMT >= 0) 
+{
+    diff = 100 * (Math.Abs(newGMT) - Math.Abs(currentGMT));
+    AdjustTime();
+} 
+else 
+{
+    diff = 100 * (Math.Abs(newGMT) + Math.Abs(currentGMT));
+    AdjustTime();
+}
+
+Console.WriteLine("New Medicine Schedule:");
+DisplayTimes();
+
+
+
+
+void DisplayTimes()
+{
+        /* Format and display medicine times */
+    foreach (int val in times)
+    {
+        string time = val.ToString();
+        int len = time.Length;
+
+        if (len >= 3)
+        {
+            time = time.Insert(len - 2, ":");
+        }
+        else if (len == 2)
+        {
+            time = time.Insert(0, "0:");
+        }
+        else
+        {
+            time = time.Insert(0, "0:0");
+        }
+
+        Console.Write($"{time} ");
+    }
+    Console.WriteLine();
+}
+
+void AdjustTime()
+{
+    /* Adjust the times by adding the difference, keeping the value within 24 hours */
+    for (int i = 0; i < times.Length; i++) 
+    {
+        times[i] = ((times[i] + diff)) % 2400;
+    }
+}
