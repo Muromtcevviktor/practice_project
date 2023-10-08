@@ -1,0 +1,15 @@
+C:\Users\murom\source\repos\practice_project\email_sorting\bin\Debug\net7.0\email_sorting.exe
+C:\Users\murom\source\repos\practice_project\email_sorting\bin\Debug\net7.0\email_sorting.deps.json
+C:\Users\murom\source\repos\practice_project\email_sorting\bin\Debug\net7.0\email_sorting.runtimeconfig.json
+C:\Users\murom\source\repos\practice_project\email_sorting\bin\Debug\net7.0\email_sorting.dll
+C:\Users\murom\source\repos\practice_project\email_sorting\bin\Debug\net7.0\email_sorting.pdb
+C:\Users\murom\source\repos\practice_project\email_sorting\obj\Debug\net7.0\email_sorting.csproj.AssemblyReference.cache
+C:\Users\murom\source\repos\practice_project\email_sorting\obj\Debug\net7.0\email_sorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murom\source\repos\practice_project\email_sorting\obj\Debug\net7.0\email_sorting.AssemblyInfoInputs.cache
+C:\Users\murom\source\repos\practice_project\email_sorting\obj\Debug\net7.0\email_sorting.AssemblyInfo.cs
+C:\Users\murom\source\repos\practice_project\email_sorting\obj\Debug\net7.0\email_sorting.csproj.CoreCompileInputs.cache
+C:\Users\murom\source\repos\practice_project\email_sorting\obj\Debug\net7.0\email_sorting.dll
+C:\Users\murom\source\repos\practice_project\email_sorting\obj\Debug\net7.0\refint\email_sorting.dll
+C:\Users\murom\source\repos\practice_project\email_sorting\obj\Debug\net7.0\email_sorting.pdb
+C:\Users\murom\source\repos\practice_project\email_sorting\obj\Debug\net7.0\email_sorting.genruntimeconfig.cache
+C:\Users\murom\source\repos\practice_project\email_sorting\obj\Debug\net7.0\ref\email_sorting.dll
