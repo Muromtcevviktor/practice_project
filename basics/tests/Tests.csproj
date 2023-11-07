@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\basics.csproj" />
+    <ProjectReference Include="..\src\Basics.csproj" />
   </ItemGroup>
 
 </Project>

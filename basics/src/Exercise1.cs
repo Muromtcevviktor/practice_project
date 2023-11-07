@@ -1,4 +1,4 @@
-﻿namespace basics;
+﻿namespace Basics;
 
 
 /// <summary>
