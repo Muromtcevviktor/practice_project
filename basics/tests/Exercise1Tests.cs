@@ -1,4 +1,4 @@
-using basics;
+using Basics;
 
 namespace Tests
 {
