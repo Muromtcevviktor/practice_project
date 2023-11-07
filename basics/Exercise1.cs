@@ -13,6 +13,20 @@ public class Exercise1
 
         //logic
 
+        //A loop iterates through each element of a List
+        foreach (int number in numbers)
+        {
+            //Condtition to check if the dictionary already contains the current number (KEY value)
+            if(toReturn.ContainsKey(number))
+            {
+                // if true -> Add +1 to the count
+                toReturn[number]++;
+            }
+            else 
+            {   // else -> Add number with count of 1
+                toReturn.Add(number, 1);
+            }
+        }
 
         return toReturn;
     }
