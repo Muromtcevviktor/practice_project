@@ -8,9 +8,11 @@ namespace Tests
         [Fact]
         public void Should_reverse_stack_correctly()
         {
-            int stackSize = 10;
+            var _sut = new Exercise2();
 
-            Stack inputStack = new Stack(stackSize);
+            int stackSize = 5;
+
+            Stack<int> inputStack = new Stack<int>(stackSize);
 
             Random r = new Random();
 
@@ -18,14 +20,18 @@ namespace Tests
 
             for(var i = 0; i < stackSize; i++)
             {
-                list.Add(r.Next());
+                list.Add(r.Next(1000));
 
                 inputStack.Push(list[i]);
             }
 
-            Stack outputStack = new Exercise2().ReverseStack(inputStack);
+            Stack<int> outputStack = _sut.ReverseStack(inputStack);
 
             //Assert outputStack logic
+            
+            Assert.Equal(stackSize, outputStack.Count);
+            //Assert.Equal(list, reversedList.Reverse());
+
         }
     }
 }
