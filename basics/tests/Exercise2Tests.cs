@@ -12,7 +12,7 @@ namespace Tests
 
             int stackSize = 5;
 
-            Stack<int> inputStack = new Stack<int>(stackSize);
+            Stack inputStack = new Stack(stackSize);
 
             Random r = new Random();
 
@@ -25,12 +25,16 @@ namespace Tests
                 inputStack.Push(list[i]);
             }
 
-            Stack<int> outputStack = _sut.ReverseStack(inputStack);
+            Stack outputStack = _sut.ReverseStack(inputStack);
 
             //Assert outputStack logic
             
-            Assert.Equal(stackSize, outputStack.Count);
-            //Assert.Equal(list, reversedList.Reverse());
+            Assert.Equal(stackSize, outputStack.SizeStack);
+
+            for (int i = 0; i < list.Count; i++)
+            {
+                Assert.Equal(list[i], outputStack.Pop());
+            }
 
         }
     }

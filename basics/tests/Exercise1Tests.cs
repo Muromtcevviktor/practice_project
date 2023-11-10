@@ -2,7 +2,7 @@ using Basics;
 
 namespace Tests
 {
-    public class Exercise1Tests
+    public class FibonacciTests
     {
         [Fact]
         public void Test1()
