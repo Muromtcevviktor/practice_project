@@ -28,9 +28,10 @@ namespace Basics.DataStructures
 
             _stackPointer++;
         }
+
         public int Pop()
         {
-            if(_stackPointer == 0)
+            if (_stackPointer == 0)
             {
                 throw new InvalidStackAccessException("Stack is empty");
             }
@@ -46,5 +47,15 @@ namespace Basics.DataStructures
 
             return number;
         }
+
+        public bool IsEmpty
+        { get 
+            { 
+                return _stackPointer == 0; 
+            } 
+        }
+
+        public int SizeStack
+        { get { return _numbers.Length; } }
     }
 }
