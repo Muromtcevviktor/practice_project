@@ -5,11 +5,11 @@ namespace Basics
 {
     public class Exercise2
     {
-        public Stack<int> ReverseStack(Stack<int> stack)
+        public Stack ReverseStack(Stack stack)
         {
-            Stack<int> reverseStack = new Stack<int>(stack.Count);
+            Stack reverseStack = new Stack(stack.SizeStack);
             
-            while (stack.Count > 0)
+            while (!stack.IsEmpty)
             {
                 reverseStack.Push(stack.Pop());
             }
