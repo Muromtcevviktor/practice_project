@@ -24,5 +24,14 @@ namespace Basics.Algorithms.Recursion
 
             }
         }
+
+        public static long TotalSumRecursive(long n)
+        {
+            if (n > int.MaxValue)
+            {
+                return 0;
+            }
+            return n + TotalSumRecursive(n + 1);
+        }
     }
 }
