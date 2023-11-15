@@ -2,60 +2,61 @@
 
 namespace Basics.DataStructures
 {
-    public class Stack
+    public class StackObject
     {
-        private int[] _numbers;
+        private object[] _objects;
         private int _stackPointer;
 
-        public Stack(int size)
+        public StackObject(int size)
         {
             if (size <= 0)
             {
                 throw new StackInitializationException("Size must be bigger than 0");
             }
 
-            _numbers = new int[size];
+            _objects = new object[size];
             _stackPointer = 0;
         }
 
-        public void Push(int number)
+        public void Push(object @object)
         {
-            if (_stackPointer == _numbers.Length)
+            if (_stackPointer == _objects.Length)
             {
                 throw new Basics.Exceptions.StackOverflowException("");
             }
-            _numbers[_stackPointer] = number;
+            _objects[_stackPointer] = @object;
 
             _stackPointer++;
         }
 
-        public int Pop()
+        public object Pop()
         {
             if (_stackPointer == 0)
             {
                 throw new InvalidStackAccessException("Stack is empty");
             }
 
-            int number = _numbers[_stackPointer - 1];
+            object objects = _objects[_stackPointer - 1];
 
-            _numbers[_stackPointer - 1] = 0;
+            _objects[_stackPointer - 1] = 0;
 
             if (_stackPointer > 0)
             {
                 _stackPointer--;
             }
 
-            return number;
+            return objects;
         }
 
         public bool IsEmpty
-        { get 
-            { 
-                return _stackPointer == 0; 
-            } 
+        {
+            get
+            {
+                return _stackPointer == 0;
+            }
         }
 
         public int SizeStack
-        { get { return _numbers.Length; } }
+        { get { return _objects.Length; } }
     }
 }

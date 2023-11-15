@@ -1,4 +1,5 @@
 ﻿using Basics.DataStructures;
+using Basics.Exceptions;
 
 namespace Basics
 {
@@ -6,7 +7,15 @@ namespace Basics
     {
         public Stack ReverseStack(Stack stack)
         {
-            throw new NotImplementedException();
+            Stack reverseStack = new Stack(stack.SizeStack);
+            
+            while (!stack.IsEmpty)
+            {
+                reverseStack.Push(stack.Pop());
+            }
+
+            return reverseStack;
+
         }
     }
 }
