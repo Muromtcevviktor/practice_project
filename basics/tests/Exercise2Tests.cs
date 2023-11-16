@@ -58,7 +58,7 @@ namespace Tests
 
             object one = inputStack.Pop();
 
-    if(one is List<double>)
+            if (one is List<double>)
             {
                 List<double> myList = one as List<double>;
             }

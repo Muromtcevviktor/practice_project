@@ -81,5 +81,36 @@ namespace Tests.DataStructuresTests
 
             Assert.Throws<StackInitializationException>(() => new Stack(-1));
         }
+
+        [Fact]
+        public void Stack_Generic()
+        {
+            StackGeneric<int> stack = new StackGeneric<int>(5);
+
+            stack.Push(10);
+            stack.Push(11);
+            stack.Push(12);
+            stack.Push(13);
+            stack.Push(14);
+
+            stack.Pop();
+        }
+
+
+        [Fact]
+        public void Stack_Generic_2()
+        {
+            StackGeneric<TestItem> stack = new StackGeneric<TestItem>(5);
+
+            stack.Push(new TestItem() {Value = 10});
+            stack.Push(new TestItem() {Value = 11});
+            stack.Push(new TestItem() {Value = 12});
+            stack.Push(new TestItem() {Value = 13});
+            stack.Push(new TestItem() {Value = 14});
+
+
+            stack.Pop();
+        }
+
     }
 }
