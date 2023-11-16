@@ -25,13 +25,16 @@ namespace Basics.Algorithms.Recursion
             }
         }
 
-        public static long TotalSumRecursive(long n)
+        /*
+        public static long TotalSumRecursive(long currentIteration, long n, long sum)
         {
-            if (n > int.MaxValue)
+            if (currentIteration == n)
             {
-                return 0;
+                return sum;
             }
-            return n + TotalSumRecursive(n + 1);
+
+            return TotalSumRecursive(currentIteration + 1, n, sum + (currentIteration + 1));
         }
+        */
     }
 }

@@ -17,13 +17,14 @@ namespace Tests.Algorithms
             list.RecursiveReverse(0, list.Count - 1);
         }
 
+        /*
         [Fact]
         public void Recurency2()
         {
             try 
             {
                 int finalNumber = 1;
-                long result = ArrayHelpers.TotalSumRecursive(1);
+                long result = ArrayHelpers.TotalSumRecursive(0, int.MaxValue, 0);
                 Assert.Equal(finalNumber, result);
             }
             catch (Exception ex)
@@ -32,5 +33,6 @@ namespace Tests.Algorithms
             }
 
         }
+        */
     }
 }
