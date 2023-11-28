@@ -1,7 +1,5 @@
 ﻿using Basics.Exceptions;
 
-
-// TODO: Generic types + Variance Covariance
 namespace Basics.DataStructures
 {
     public class StackGeneric<T>
