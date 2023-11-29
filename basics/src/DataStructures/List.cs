@@ -2,6 +2,7 @@
 using System;
 using System.Data;
 using System.Dynamic;
+using System.Security.Principal;
 
 namespace Basics.DataStructures
 {
@@ -125,8 +126,43 @@ namespace Basics.DataStructures
             else
             {
                 throw new IndexOutOfRangeException("Node for given index does not exist.");
+            }  
+        }
+
+        // TODO: homework: Tests for GetItem && RemoveItem
+        public bool RemoveItem(int index)
+        {
+            Node<T> currentItem = head;
+            Node<T> previousItem = null;
+            Node<T> nextItem = null;
+            int currentIndex = 0;
+
+            if (currentItem != null)
+            {
+                while (currentIndex < index && currentItem != null)
+                {
+                    previousItem = currentItem;
+                    currentItem = currentItem.Next;
+                    if(currentItem.Next == null)
+                    {
+                        nextItem = null;
+                    }
+                    else
+                    {
+                        nextItem = currentItem.Next.Next;
+                    }
+                    
+                    currentIndex++;
+                }
+                if (currentIndex == index)
+                {
+                    previousItem.Next = nextItem;
+                }
             }
-            //TODO: throw exeption if Node for given index doesn not exist  
+            else
+            {
+                return false;
+            }
         }
 
     }
