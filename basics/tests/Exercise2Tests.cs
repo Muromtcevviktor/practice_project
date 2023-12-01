@@ -60,7 +60,7 @@ namespace Tests
 
             if (one is List<double>)
             {
-                List<double> myList = one as List<double>;
+                List<double>? myList = one as List<double>;
             }
             double two = (double)inputStack.Pop();
             int three = (int)inputStack.Pop();

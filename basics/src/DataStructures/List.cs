@@ -67,14 +67,14 @@ namespace Basics.DataStructures
 
     public class Node<T>
     {
-        public T Value { get; set; }
-        public Node<T> Next { get; set; }
+        public T? Value { get; set; }
+        public Node<T>? Next { get; set; }
     }
 
     public class LinkedList<T>
     {
         Node<T>? head;
-        Node<T>? tail;
+        //Node<T>? tail;
 
         public void Add(T item)
         {
@@ -84,7 +84,7 @@ namespace Basics.DataStructures
             }
             else
             {
-                Node<T> currentElement = head.Next;
+                Node<T> currentElement = head.Next!;
 
                 while (currentElement != null)
                 {
@@ -92,7 +92,7 @@ namespace Basics.DataStructures
                     {
                         currentElement = new Node<T> { Value = item };
                     }
-                    currentElement = currentElement.Next;
+                    currentElement = currentElement.Next!;
                 }
             }
         }
@@ -110,7 +110,7 @@ namespace Basics.DataStructures
 
                 while (currentIndex < index && currentItem != null)
                 {
-                    currentItem = currentItem.Next;
+                    currentItem = currentItem.Next!;
                     currentIndex++;
                 }
 
@@ -129,12 +129,11 @@ namespace Basics.DataStructures
             }  
         }
 
-        // TODO: homework: Tests for GetItem && RemoveItem
         public bool RemoveItem(int index)
         {
-            Node<T> currentItem = head;
-            Node<T> previousItem = null;
-            Node<T> nextItem = null;
+            Node<T> currentItem = head!;
+            Node<T> previousItem = null!;
+            Node<T> nextItem = null!;
             int currentIndex = 0;
 
             if (currentItem != null)
@@ -142,22 +141,24 @@ namespace Basics.DataStructures
                 while (currentIndex < index && currentItem != null)
                 {
                     previousItem = currentItem;
-                    currentItem = currentItem.Next;
-                    if(currentItem.Next == null)
+                    currentItem = currentItem.Next!;
+                    if(currentItem!.Next == null)
                     {
-                        nextItem = null;
+                        nextItem = null!;
                     }
                     else
                     {
-                        nextItem = currentItem.Next.Next;
+                        nextItem = currentItem.Next.Next!;
                     }
                     
                     currentIndex++;
                 }
+
                 if (currentIndex == index)
                 {
-                    previousItem.Next = nextItem;
+                   previousItem!.Next = nextItem!;
                 }
+                return true;
             }
             else
             {
@@ -167,33 +168,3 @@ namespace Basics.DataStructures
 
     }
 }
-
-
-
-/*
-        public Node<T> GetItem(int index)
-        {
-            if (index < 0 || head == null)
-            {
-                throw new IndexOutOfRangeException("Node for given index does not exist.");
-            }
-
-            Node<T> current = head;
-            int currentIndex = 0;
-
-            while (currentIndex < index && current.Next != null)
-            {
-                current = current.Next;
-                currentIndex++;
-            }
-
-            if (currentIndex == index)
-            {
-                return current;
-            }
-            else
-            {
-                throw new IndexOutOfRangeException("Node for given index does not exist.");
-            }
-        }
-*/
