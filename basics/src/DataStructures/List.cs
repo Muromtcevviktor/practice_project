@@ -1,7 +1,10 @@
 ﻿using Basics.Exceptions;
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Data;
 using System.Dynamic;
+using System.Security;
 using System.Security.Principal;
 
 namespace Basics.DataStructures
@@ -76,6 +79,17 @@ namespace Basics.DataStructures
         Node<T>? head;
         //Node<T>? tail;
 
+        public IEnumerable<T> Iterate()
+        {
+            Node<T> currentElement = head!;
+
+            while (currentElement != null)
+            {
+                yield return currentElement.Value!;
+                currentElement = currentElement.Next!;
+            }
+
+        }
         public void Add(T item)
         {
             if (head == null)
@@ -84,15 +98,19 @@ namespace Basics.DataStructures
             }
             else
             {
-                Node<T> currentElement = head.Next!;
+                Node<T> currentElement = head;
 
                 while (currentElement != null)
                 {
                     if (currentElement.Next == null)
                     {
-                        currentElement = new Node<T> { Value = item };
+                        currentElement.Next = new Node<T> { Value = item };
+                        break;
                     }
-                    currentElement = currentElement.Next!;
+                    else
+                    {
+                        currentElement = currentElement.Next!;
+                    }
                 }
             }
         }
@@ -138,7 +156,7 @@ namespace Basics.DataStructures
 
             if (currentItem != null)
             {
-                while (currentIndex < index && currentItem != null)
+                while (currentIndex < index)
                 {
                     previousItem = currentItem;
                     currentItem = currentItem.Next!;
@@ -148,22 +166,26 @@ namespace Basics.DataStructures
                     }
                     else
                     {
-                        nextItem = currentItem.Next.Next!;
+                        nextItem = currentItem.Next!;
                     }
                     
                     currentIndex++;
                 }
 
-                if (currentIndex == index)
+                if (index == 0)
                 {
-                   previousItem!.Next = nextItem!;
+                    head = currentItem.Next;
+                    return true;
                 }
-                return true;
+
+                if (currentIndex == index)
+                { 
+                   previousItem!.Next = nextItem!;
+                   return true;
+                }            
             }
-            else
-            {
                 return false;
-            }
+            
         }
 
     }

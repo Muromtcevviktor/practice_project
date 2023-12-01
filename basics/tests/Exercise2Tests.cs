@@ -1,5 +1,7 @@
 ﻿using Basics;
 using Basics.DataStructures;
+using System;
+using System.Collections.Generic;
 using System.Xml;
 
 namespace Tests
