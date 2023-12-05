@@ -31,7 +31,6 @@ namespace Tests
             Stack outputStack = _sut.ReverseStack(inputStack);
 
             //Assert outputStack logic
-
             Assert.Equal(stackSize, outputStack.SizeStack);
 
             for (int i = 0; i < list.Count; i++)
