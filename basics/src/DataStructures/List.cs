@@ -86,8 +86,7 @@ namespace Basics.DataStructures
             return Iterate().GetEnumerator();
         }
 
-        Node<T>? head;
-        //Node<T>? tail;
+        public Node<T>? head;
 
         protected IEnumerable<T> Iterate()
         {

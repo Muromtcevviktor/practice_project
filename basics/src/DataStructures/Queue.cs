@@ -4,27 +4,36 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Dynamic;
+using System.Linq;
 using System.Security;
 using System.Security.Principal;
 
 namespace Basics.DataStructures
 {
-    public class Queue<T>
+    public class Queue<T> : LinkedList<T>
     {
-        private LinkedList<T> list = new LinkedList<T>();
+        private LinkedList<T> queueList = new LinkedList<T>();
+
         public void Enqueue(T item)
         {
-            list.Add(item);
+            queueList.Add(item);
         }
 
-        public void Dequeue(T item) 
+        public T Dequeue()
         {
-            list.GetItem(0);
+            if (Count() == 0)
+            {
+                throw new InvalidOperationException("Queue is empty");
+            }
 
+            T item = queueList.GetItem(0).Value;
+            queueList.RemoveItem(0);
+            return item;
         }
 
-
-
-        
+        public int Count()
+        {
+            return queueList.Count();
+        }
     }
 }
