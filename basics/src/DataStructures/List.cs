@@ -74,12 +74,22 @@ namespace Basics.DataStructures
         public Node<T>? Next { get; set; }
     }
 
-    public class LinkedList<T>
+    public class LinkedList<T> : IEnumerable<T>
     {
+        public IEnumerator<T> GetEnumerator()
+        {
+            return Iterate().GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return Iterate().GetEnumerator();
+        }
+
         Node<T>? head;
         //Node<T>? tail;
 
-        public IEnumerable<T> Iterate()
+        protected IEnumerable<T> Iterate()
         {
             Node<T> currentElement = head!;
 
@@ -187,6 +197,7 @@ namespace Basics.DataStructures
                 return false;
             
         }
+
 
     }
 }

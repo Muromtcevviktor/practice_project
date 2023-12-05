@@ -4,19 +4,28 @@ using StackOverflowException = Basics.Exceptions.StackOverflowException;
 
 namespace Tests.DataStructuresTests
 {
-    public class LinkedListTests
+    public class QueueTests
     {
         [Fact]
-        public void Should_return_number_under_given_index()
+        public void Should_remove_item_from_queue()
         {
-            LinkedList<int> list = new LinkedList<int>();
-            list.Add(1);
-            list.Add(2);
-            list.Add(3);
-            list.Add(4);
-            list.Add(5);
+            Queue<int> queue = new Queue<int>();
+            queue.Enqueue(1);
+            queue.Enqueue(2);
+            queue.Enqueue(3);
+            queue.Enqueue(4);
+            queue.Enqueue(5);
 
-            Node<int> node = list.GetItem(1);
+            //while()
+            {
+
+            }
+            //int first = queue.Dequeue();
+            
+
+
+
+
 
             Assert.Equal(2, node.Value);
         }
