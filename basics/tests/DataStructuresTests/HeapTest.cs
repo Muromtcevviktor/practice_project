@@ -1,6 +1,8 @@
 ﻿using Basics.DataStructures;
 using Basics.Exceptions;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using StackOverflowException = Basics.Exceptions.StackOverflowException;
 
 namespace Tests.DataStructuresTests
@@ -10,7 +12,7 @@ namespace Tests.DataStructuresTests
         [Fact]
         public void Should_pop_first_item_from_heap()
         {
-            var heap = new Heap();
+            var heap = new Heap<int>();
             /*
             Random rnd = new Random();
 
@@ -19,21 +21,20 @@ namespace Tests.DataStructuresTests
                 heap.Add(rnd.Next(1, 50));
             }
             */
-            heap.Add(2);
-            heap.Add(32);
-            heap.Add(14);
-            heap.Add(11);
-            heap.Add(25);
-            heap.Add(7);
-            heap.Add(16);
-            heap.Add(29);
-            heap.Add(35);
 
-            heap.Peek();
-            Assert.Equal(35, 35);
+            List<int> lists = new List<int>(){ 2, 32, 14, 11, 25, 7, 16, 29, 35 };
+            var sortedList = lists.OrderByDescending(a => a).ToList();
+            
+            foreach(var item in lists)
+            {
+                heap.Add(item, item);
+            }
 
-            heap.Pop();
-            Assert.Equal(8, heap.Count);
+            foreach(var item in sortedList)
+            {
+                var max = heap.Pop();
+                Assert.Equal(item, max);
+            }
         }
     }
 }
