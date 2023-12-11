@@ -10,23 +10,23 @@ using System.Security.Principal;
 
 namespace Basics.DataStructures
 {
-    public class PriorityQueue
+    public class PriorityQueue<T>
     {
-        private Heap heap = new Heap();
+        private Heap<T> heap = new Heap<T>();
 
         public int Count => heap.Count;
 
-        public int? Peek()
+        public T Peek()
         {
             return heap.Peek();
         }
 
-        public void Enqueue(int item)
+        public void Enqueue(T item, int priority)
         {
-            heap.Add(item);
+            heap.Add(item, priority);
         }
 
-        public int Dequeue()
+        public T Dequeue()
         {
             return heap.Pop();
         }
