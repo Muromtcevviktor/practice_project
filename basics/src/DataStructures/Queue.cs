@@ -10,7 +10,7 @@ using System.Security.Principal;
 
 namespace Basics.DataStructures
 {
-    public class Queue<T> : LinkedList<T>
+    public class Queue<T>
     {
         private LinkedList<T> queueList = new LinkedList<T>();
 
