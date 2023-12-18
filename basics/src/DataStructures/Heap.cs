@@ -16,10 +16,10 @@ namespace Basics.DataStructures
     // question: line 52 - Operator > cannot be applied to operands of type T
     #endregion
 
-    public class Heap
+    public class Heap<T>
 
     {
-        private List<int> list = new List<int>();
+        private List<HeapItem<T>> list = new List<HeapItem<T>>();
 
         public int Count 
         {
@@ -29,27 +29,27 @@ namespace Basics.DataStructures
             } 
         }
 
-        public int? Peek() 
+        public T Peek() 
         {
             if(Count > 0)
             {
-                return list[0];
+                return list[0].Value;
             }
             else
             {
-                return null;
+                return default;
             }
         }
 
-        public void Add(int item)
+        public void Add(T item, int key)
         {
-            list.Add(item);
+            list.Add(new HeapItem<T>() { Value = item, Key = key });
 
             var currentIndex = Count - 1; 
 
             var parentIndex = (currentIndex - 1) / 2;
 
-            while(currentIndex > 0 && list[parentIndex] < list[currentIndex])
+            while(currentIndex > 0 && list[parentIndex].Key < list[currentIndex].Key)
             {
                 Swap(currentIndex, parentIndex);
 
@@ -58,9 +58,9 @@ namespace Basics.DataStructures
             }
 
         }
-        public int Pop()
+        public T Pop()
         {
-            var result = list[0];
+            var result = list[0].Value;
             list[0] = list[Count - 1];
             list.RemoveAt(Count - 1);
 
@@ -80,12 +80,12 @@ namespace Basics.DataStructures
                 leftIndex = 2 * currentIndex + 1;
                 rightIndex = 2 * currentIndex + 2;
 
-                if(leftIndex < Count && list[leftIndex] > list[maxIndex])
+                if(leftIndex < Count && list[leftIndex].Key > list[maxIndex].Key)
                 {
                     maxIndex = leftIndex;
                 }
 
-                if (rightIndex < Count && list[rightIndex] > list[maxIndex])
+                if (rightIndex < Count && list[rightIndex].Key > list[maxIndex].Key)
                 {
                     maxIndex = rightIndex;
                 }
@@ -106,5 +106,11 @@ namespace Basics.DataStructures
             list[currentIndex] = list[parentIndex];
             list[parentIndex] = temp;
         }
+    }
+
+    public class HeapItem<T>
+    {
+        public int Key { get; set; }
+        public T Value { get; set; }
     }
 }
