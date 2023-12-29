@@ -1,0 +1,14 @@
+C:\Users\murom\source\repos\practice_project\To-Do List_Application\To_Do_List_Solution\To_Do_List\obj\Debug\net6.0\To_Do_List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murom\source\repos\practice_project\To-Do List_Application\To_Do_List_Solution\To_Do_List\obj\Debug\net6.0\To_Do_List.AssemblyInfoInputs.cache
+C:\Users\murom\source\repos\practice_project\To-Do List_Application\To_Do_List_Solution\To_Do_List\obj\Debug\net6.0\To_Do_List.AssemblyInfo.cs
+C:\Users\murom\source\repos\practice_project\To-Do List_Application\To_Do_List_Solution\To_Do_List\obj\Debug\net6.0\To_Do_List.csproj.CoreCompileInputs.cache
+C:\Users\murom\source\repos\practice_project\To-Do List_Application\To_Do_List_Solution\To_Do_List\bin\Debug\net6.0\To_Do_List.exe
+C:\Users\murom\source\repos\practice_project\To-Do List_Application\To_Do_List_Solution\To_Do_List\bin\Debug\net6.0\To_Do_List.deps.json
+C:\Users\murom\source\repos\practice_project\To-Do List_Application\To_Do_List_Solution\To_Do_List\bin\Debug\net6.0\To_Do_List.runtimeconfig.json
+C:\Users\murom\source\repos\practice_project\To-Do List_Application\To_Do_List_Solution\To_Do_List\bin\Debug\net6.0\To_Do_List.dll
+C:\Users\murom\source\repos\practice_project\To-Do List_Application\To_Do_List_Solution\To_Do_List\bin\Debug\net6.0\To_Do_List.pdb
+C:\Users\murom\source\repos\practice_project\To-Do List_Application\To_Do_List_Solution\To_Do_List\obj\Debug\net6.0\To_Do_List.dll
+C:\Users\murom\source\repos\practice_project\To-Do List_Application\To_Do_List_Solution\To_Do_List\obj\Debug\net6.0\refint\To_Do_List.dll
+C:\Users\murom\source\repos\practice_project\To-Do List_Application\To_Do_List_Solution\To_Do_List\obj\Debug\net6.0\To_Do_List.pdb
+C:\Users\murom\source\repos\practice_project\To-Do List_Application\To_Do_List_Solution\To_Do_List\obj\Debug\net6.0\To_Do_List.genruntimeconfig.cache
+C:\Users\murom\source\repos\practice_project\To-Do List_Application\To_Do_List_Solution\To_Do_List\obj\Debug\net6.0\ref\To_Do_List.dll
